@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pyetesor per porosi</title>
+    </head>
+    <body>
+        <section>
+            <atricle>
+                <h1>Pyetesor per porosi</h1>
+            </atricle>  
+            <atricle>
+                <p>Ky eshte nje pyetesor per kompanine tone. Ju lutem plotesoni pyetesorin.</p>
+            </article>    
+        </section>
+        <main>
+                <form action="index2.html" method="POST">
+                <section class="llojiiush">
+                    <label for="lloji">Cfare iu pelqen me shume nga kompania jone?</label>
+                    <br>
+                    <input id="lloji" type="text" name="lloji i ushqimit" placeholder="Jepni mendimin tuaj ketu.">
+                </section>
+                <br><br>
+                <section>
+                    <label for="sasia e shijes">Si e vleresoni produktin e kompanise sone?</label>
+                    <br>
+                    <span>Shume e keqe</span>
+                    <input id="sasia e shijes" type="range" name="vleresimi" min="0" max="10" step="1">
+                    <span>Shume e mire</span>
+                </section>
+                <br><br>
+                <section class="vlera">
+                    <label>A do t'ia vleresonit ndokujt produktin tone?</label>
+                    <br>
+                    <label for="vlera">Po</label>
+                    <input id="vlera" name="vlera" type="radio" value="Po">
+                    <label for="vlera2">Jo</label>
+                    <input id="vlera2" name="vlera" type="radio" value="Jo">
+                </section>
+                <br><br>
+                <section>
+                    <label for="numri">Sa produkte keni marre nga kompania jone?</label>
+                    <input id="numri" type="number" name="nr i produkteve" step="1">
+                </section>
+                <br><br>
+                <section class="aftesia">
+                    <label>Per cfare e vleresoni kompanine tone?</label>
+                    <input id="aftesia" type="checkbox" name="aftesia" value="Aftesia">
+                    <label for="aftesia">Aftesia</label>
+                    <input id="shpejtesia" type="checkbox" name="shpejtesia" value="Shpejtesia e sherbimit">
+                    <label for="shpejtesia">Shpejtesia e sherbimit</label>
+                    <input id="res" type="checkbox" name="respekti" value="Respekti ndaj klienteve">
+                    <label for="res">Respekti ndaj klienteve</label>
+                </section>
+                <br><br>
+                <section class="deshire">
+                    <label for="deshire">Cilin produkt pelqeni me shume nga kompania jone?</label>
+                    <select id="deshire" name="deshire">
+                        <option value="telefona">Telefonat</option>
+                        <option value="tableta">Tableta</option>
+                        <option value="laptopa">Laptopa</option>
+                        <option value="single-board computers">Single-board Computers</option>
+                    </select>
+                </section>
+                <br><br>
+                <section class="fjala e duhur">
+                    <label>Cilat jane produktet qe mendoni se shesim?</label>
+                    <input id="fjala e duhur" list="fjala" name="fjala e duhur" type="text">
+                    <datalist id="fjala">
+                        <option value="Macbook"></option>
+                        <option value="Lenovo"></option>
+                        <option value="Iphone"></option>
+                        <option value="Redmi"></option>
+                    </datalist>
+                <br><br>    
+                </section>
+                <section class="ekstra">
+                    <label for="ekstra">Cfare doni te thoni me shume per ne?</label>
+                    <textarea id="ekstra" row="5" col="30" name="ekstra" placeholder="Une mendoj se..."></textarea>
+                </section>
+                <br><br>
+                <section class="password">
+                    <label for="password">Ju lutem vendosni passwordin tuaj</label>
+                    <input id="password" type="password" name="password" minlength="8" maxlength="15" required>
+                    <br><br>
+                </section>
+                <section class="personat">
+                    <label for="personat">Vendosni numrin e prsonave ne familje</label>
+                    <input id="personat" type="number" min="1" max="8" name="personat" required>
+                </section>
+                <section class="emri">
+                    <label for="emri">Vendosni emrin e perdoruesit(duhet te kete vetem shkronja)</label>
+                    <input type="text" id="emri" name="emri" pattern="[a-zA-Z]+" required>
+                </section>
+            </form>    
+        </main> 
+        <footer>
+            <form>
+                <section class="dergimi">
+                    <input value="Dergo" type="submit">
+                </section>
+            </form>
+        </footer>    
+    </body>
+</html>
+        
